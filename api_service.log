@@ -1,0 +1,17 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=HA-LGD HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa02f9 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=HA-LGD HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa02f9 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=HA-LGD HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa02f9 HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:03:36] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:03:55] "GET /obtener_json HTTP/1.1" 200 -
