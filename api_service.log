@@ -15,3 +15,522 @@ INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:03:36] "GET /obtener_json HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:03:55] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EI-DYC HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32f9ccb9 HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EI-DYC HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32f9ccb9 HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:23:42] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:23:49] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:23:55] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:24:43] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:24:44] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:24:44] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:24:45] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:26:03] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:26:05] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:30:56] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:17] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:23] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:25] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:29] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:31] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:32] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:32] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:33] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:32:35] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MHJ HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:33:22] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:33:39] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:03] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:04] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:06] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:16] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:17] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:17] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:17] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:18] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:19] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:20] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:20] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:34] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0eb7 HTTP/1.1" 524 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:50] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:51] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:34:55] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:35:43] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:35:49] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:02] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:16] "GET /obtener_json HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-cloud.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-cloud.flightradar24.com:443 "GET /zones/fcgi/feed.js?faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1&limit=5000&reg=EC-MPI HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-live.flightradar24.com:443
+DEBUG:urllib3.connectionpool:https://data-live.flightradar24.com:443 "GET /clickhandler/?flight=32fa0ee6 HTTP/1.1" 520 None
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:29] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:30] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:30] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:30] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:31] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:31] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:31] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:31] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:31] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:31] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:32] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:33] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:34] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:35] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:36] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:36] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:36] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:36] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:36] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:37] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:37] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:37] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:37] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:37] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:38] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:38] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:38] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:38] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:38] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:39] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:39] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:39] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:39] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:39] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:39] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:40] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:40] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:40] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:40] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:40] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:41] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:41] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:41] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:41] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:41] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:41] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:42] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:42] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:42] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:42] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:42] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:43] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:43] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:43] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:43] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:43] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:43] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:44] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:44] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:44] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:44] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:44] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:45] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:45] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:45] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:45] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:45] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:46] "GET /obtener_json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2023 18:36:46] "GET /obtener_json HTTP/1.1" 200 -
