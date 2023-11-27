@@ -38,7 +38,7 @@ def actualizar_datos_json():
     while True:
         # Lógica para obtener datos actualizados
         key_flights = fr_api.get_flights(
-            registration = matricula
+            registration = "pelele"
         )
 
         if key_flights:
