@@ -5,26 +5,30 @@ import json
 from FlightRadar24.api import FlightRadar24API  # Asegúrate de importar adecuadamente tu módulo FlightRadar24
 import logging
 import sys
+import external_function
 # url: http://127.0.0.1:<port_number>/<function_name>
 #http://127.0.0.1:5000/obtener_json
 
+selected_flight = None
+while selected_flight == None:
+    selected_flight = external_function.find_flight(2,"VY3209")
 app = Flask(__name__)
+ruta_personalizada = '/tracking_EC-NLX'
 
-logging.basicConfig(filename='api_service.log', level=logging.DEBUG)
+# if len(sys.argv) > 1:
+#     matricula = sys.argv[1]
+#     ruta_personalizada = "/tracking_airplane_" + matricula  # Toma el primer argumento de la línea de comandos
+#     #print(ruta_personalizada)
+# else:
+#     print("ERROR: Debes proporcionar una matricula para el seguimiento del vuelo.")
+#     sys.exit(1)  # Salir con código de error 1
+
+#logging.basicConfig(filename=ruta_personalizada[1:]+'.log', level=logging.DEBUG)
+logging.basicConfig(filename=ruta_personalizada[1:]+'.log', level=logging.DEBUG)
 
 # Datos iniciales
 datos_json = {}
 lock = threading.Lock()
-
-ruta_personalizada = None
-
-if len(sys.argv) > 1:
-    matricula = sys.argv[1]
-    ruta_personalizada = "/tracking_airplane_" + matricula  # Toma el primer argumento de la línea de comandos
-    print(ruta_personalizada)
-else:
-    print("ERROR: Debes proporcionar una matricula para el seguimiento del vuelo.")
-    sys.exit(1)  # Salir con código de error 1
 
 @app.route(ruta_personalizada, methods=['GET'])
 def obtener_json():
@@ -36,17 +40,12 @@ def actualizar_datos_json():
     fr_api = FlightRadar24API()
 
     while True:
-        # Lógica para obtener datos actualizados
-        key_flights = fr_api.get_flights(
-            registration = "pelele"
-        )
 
-        if key_flights:
-            flight_selected = fr_api.get_flight_details(key_flights[0])
-            #print(flight_selected.get("time")["real"]["arrival"],end="\t")
-            print(key_flights[0])
-            with lock:
-                datos_json = flight_selected.get("time")
+        selected_flight_details = fr_api.get_flight_details(selected_flight)
+        #print(flight_selected.get("time")["real"]["arrival"],end="\t")
+        print(selected_flight)
+        with lock:
+            datos_json = selected_flight_details.get("time")
         
         time.sleep(10)
 

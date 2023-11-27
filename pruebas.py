@@ -18,13 +18,18 @@ def compare_registration(flight: Flight, reg: str):
 def compare_number(flight: Flight, number: str):
     return number == flight.number
 
+def compare_id(flight: Flight, id: str):
+    return id == flight.id
+
 def find_flight(opcion: int, str: str) -> Flight:
 
     choosen_function = None
     if opcion == 1:
         choosen_function = compare_registration
-    else: 
+    elif opcion == 2:
         choosen_function = compare_number
+    else: 
+        choosen_function = compare_id
     fr_api = FlightRadar24API()
 
     for key in fr_api.get_zones():
@@ -50,6 +55,9 @@ if (sys.argv[1] == "-r" or
 elif (sys.argv[1] == "-n" or
     sys.argv[1] == "--fligh_number"):
     opcion = 2
+elif (sys.argv[1] == "-i" or
+    sys.argv[1] == "--identificator"):
+    opcion = 3
 else:
     mostrar_error("Opción no válida")
     sys.exit(1)
@@ -58,11 +66,20 @@ selected_flight = find_flight(opcion,sys.argv[2])
 if selected_flight == None:
     mostrar_error("No se ha encontrado el vuelo")
     sys.exit(2)
-        
-
+info_needed = ['identification','status','aircraft','airport','time']        
+dic = FlightRadar24API().get_flight_details(selected_flight)
+for key in dic.keys():
+    print("------------ ",key," ------------")
+    print(json.dumps(FlightRadar24API().get_flight_details(selected_flight).get(key), indent=2))
+    print("\n\n")
+# print((selected_flight.get_distance_from(FlightRadar24API().get_airport("GCXO")) /
+#     FlightRadar24API().get_airport("LPL").get_distance_from(FlightRadar24API().get_airport("GCXO"))) *
+#     100)
+sys.exit(0)
 while True:
     fr_api = FlightRadar24API()
     #print(fr_api.get_airport("TFN").country)
+    print(fr_api.get_airlines())
 
     # count = 0
     # key_flights = fr_api.get_flights(
