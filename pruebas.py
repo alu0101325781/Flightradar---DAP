@@ -15,12 +15,12 @@ while True:
     count = 0
     key_flights = fr_api.get_flights(
         #airline = "CAI",
-        registration = "EC-MUJ"
+        registration = "G-DRTB"
     )
     detalles_vuelo = fr_api.get_flight_details(key_flights[0])
     print(detalles_vuelo.get("time")["real"]["arrival"],end="\t")
     print(key_flights[0])
-    time.sleep(3)
+    time.sleep(10)
 for i in key_flights:
     #if "XR" in i.number:
     print(i.id,i.callsign,i.number,
