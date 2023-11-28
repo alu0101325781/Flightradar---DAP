@@ -1,7 +1,3 @@
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Executors;
@@ -12,11 +8,17 @@ public class FlightTracker implements IPublisher {
     private List<IObserver> observers = new ArrayList<>();
     private String filePath;
     private String currentFlightInfo;
+    private FlightStatus flightStatus;
 
     public FlightTracker(String filePath) {
         this.filePath = filePath;
         this.currentFlightInfo = readJsonFile();
+        this.flightStatus = new OnLand(); // Inicializar con un estado predeterminado
         scheduleJsonFileCheck();
+    }
+
+    public void setFlightStatus(FlightStatus flightStatus) {
+        this.flightStatus = flightStatus;
     }
 
     @Override
@@ -32,6 +34,8 @@ public class FlightTracker implements IPublisher {
     @Override
     public void notifyObservers() {
         String newFlightInfo = readJsonFile();
+        flightStatus.checkStatus(newFlightInfo);
+
         if (!newFlightInfo.equals(currentFlightInfo)) {
             currentFlightInfo = newFlightInfo;
             for (IObserver observer : observers) {
@@ -41,16 +45,9 @@ public class FlightTracker implements IPublisher {
     }
 
     private String readJsonFile() {
-        StringBuilder content = new StringBuilder();
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                content.append(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return content.toString();
+        // Implementación de lectura del archivo JSON
+        // ...
+        return ""; // Placeholder, reemplázalo con la implementación real
     }
 
     private void scheduleJsonFileCheck() {
@@ -58,3 +55,4 @@ public class FlightTracker implements IPublisher {
         scheduler.scheduleAtFixedRate(this::notifyObservers, 0, 10, TimeUnit.SECONDS);
     }
 }
+
