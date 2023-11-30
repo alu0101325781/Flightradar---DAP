@@ -5,15 +5,24 @@ import json
 from FlightRadar24.api import FlightRadar24API  # Asegúrate de importar adecuadamente tu módulo FlightRadar24
 import logging
 import sys
-import external_function
+from find_flight_module import find_flight, ArgumentError
 # url: http://127.0.0.1:<port_number>/<function_name>
 #http://127.0.0.1:5000/obtener_json
 
+# TODO: recibir las opciones por argumento
+
 selected_flight = None
+# Comprobar primero en el caso de que se quiera seguir a un avión y la matricula 
+# no se encuentre en el registro, lanzar una excpeción para acabar con el programa
+try:
+    selected_flight = find_flight(2,"HV6672")
+except ArgumentError as e:
+    print(f"Error: {e}")
+
 while selected_flight == None:
-    selected_flight = external_function.find_flight(2,"VY3209")
+    selected_flight = find_flight(2,"HV6672")
 app = Flask(__name__)
-ruta_personalizada = '/tracking_EC-NLX'
+ruta_personalizada = '/tracking_HV6672'
 
 # if len(sys.argv) > 1:
 #     matricula = sys.argv[1]
@@ -42,7 +51,7 @@ def actualizar_datos_json():
     while True:
 
         selected_flight_details = fr_api.get_flight_details(selected_flight)
-        #print(flight_selected.get("time")["real"]["arrival"],end="\t")
+        print(selected_flight_details.get("time")["real"]["arrival"],end="\t")
         print(selected_flight)
         with lock:
             datos_json = selected_flight_details.get("time")
