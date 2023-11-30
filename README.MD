@@ -1,4 +1,5 @@
 # FlightRadar
+![Logo](logo.png) 
 ## Acerca de 
 Este programa muestra la información de los aviones actualmente volando
 Se mostrará origen, destino y demás estadísticas
