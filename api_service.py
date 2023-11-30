@@ -9,13 +9,26 @@ from find_flight_module import find_flight, ArgumentError
 # url: http://127.0.0.1:<port_number>/<function_name>
 #http://127.0.0.1:5000/obtener_json
 
-# TODO: recibir las opciones por argumento
+def mostrar_error(mensaje):
+    print(f"Error: {mensaje}", file=sys.stderr)
 
+if (sys.argv[1] == "-r" or
+    sys.argv[1] == "--registration"):
+    opcion = 1
+elif (sys.argv[1] == "-n" or
+    sys.argv[1] == "--fligh_number"):
+    opcion = 2
+elif (sys.argv[1] == "-i" or
+    sys.argv[1] == "--identificator"):
+    opcion = 3
+else:
+    mostrar_error("Opción no válida")
+    sys.exit(1)
 selected_flight = None
 # Comprobar primero en el caso de que se quiera seguir a un avión y la matricula 
 # no se encuentre en el registro, lanzar una excpeción para acabar con el programa
 try:
-    selected_flight = find_flight(2,"HV6672")
+    selected_flight = find_flight(opcion,sys.argv[2])
 except ArgumentError as e:
     print(f"Error: {e}")
 
