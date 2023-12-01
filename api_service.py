@@ -12,23 +12,25 @@ from find_flight_module import find_flight, ArgumentError
 def mostrar_error(mensaje):
     print(f"Error: {mensaje}", file=sys.stderr)
 
-if (sys.argv[1] == "-r" or
-    sys.argv[1] == "--registration"):
+if (sys.argv[2] == "-r" or
+    sys.argv[2] == "--registration"):
     opcion = 1
-elif (sys.argv[1] == "-n" or
-    sys.argv[1] == "--fligh_number"):
+elif (sys.argv[2] == "-n" or
+    sys.argv[2] == "--fligh_number"):
     opcion = 2
-elif (sys.argv[1] == "-i" or
-    sys.argv[1] == "--identificator"):
+elif (sys.argv[2] == "-i" or
+    sys.argv[2] == "--identificator"):
     opcion = 3
 else:
     mostrar_error("Opción no válida")
     sys.exit(1)
+
+puerto_elegido = int(sys.argv[1])
 selected_flight = None
 # Comprobar primero en el caso de que se quiera seguir a un avión y la matricula 
 # no se encuentre en el registro, lanzar una excpeción para acabar con el programa
 try:
-    selected_flight = find_flight(opcion,sys.argv[2])
+    selected_flight = find_flight(opcion,sys.argv[3])
 except ArgumentError as e:
     print(f"Error: {e}")
 
@@ -40,7 +42,7 @@ app = Flask(__name__)
 ruta_personalizada = '/'+f_id
 
 # if len(sys.argv) > 1:
-#     matricula = sys.argv[1]
+#     matricula = sys.argv[2]
 #     ruta_personalizada = "/tracking_airplane_" + matricula  # Toma el primer argumento de la línea de comandos
 #     #print(ruta_personalizada)
 # else:
@@ -78,7 +80,7 @@ def actualizar_datos_json():
         time.sleep(10)
 
 if __name__ == '__main__':
-    hilo_flask = threading.Thread(target=app.run, kwargs={'debug': True, 'port': 5000, 'use_reloader': False})
+    hilo_flask = threading.Thread(target=app.run, kwargs={'debug': True, 'port': puerto_elegido, 'use_reloader': False})
     hilo_flask.start()
 
     hilo_datos = threading.Thread(target=actualizar_datos_json)

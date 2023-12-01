@@ -34,12 +34,11 @@ def find_flight(opcion: int, str: str) -> Flight:
         )
         #print(len(selected_flights))
         for i in selected_flights:
-            if key == "atlantic":
-                if choosen_function(i,str):
-                    # print(i.id,i.callsign,i.number,i.registration,
-                    #     fr_api.get_airport(i.origin_airport_iata).city,
-                    #     fr_api.get_airport(i.destination_airport_iata).city)
-                    return i
+            if choosen_function(i,str):
+                # print(i.id,i.callsign,i.number,i.registration,
+                #     fr_api.get_airport(i.origin_airport_iata).city,
+                #     fr_api.get_airport(i.destination_airport_iata).city)
+                return i
     
     # if opcion == 1:
     #     raise ArgumentError("No existe el avión con matricula: ",str)
