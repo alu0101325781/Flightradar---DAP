@@ -32,10 +32,12 @@ try:
 except ArgumentError as e:
     print(f"Error: {e}")
 
+f_id = selected_flight.id
+print(f_id)
 while selected_flight == None:
-    selected_flight = find_flight(2,"HV6672")
+    selected_flight = find_flight(3,f_id)
 app = Flask(__name__)
-ruta_personalizada = '/tracking_HV6672'
+ruta_personalizada = '/'+f_id
 
 # if len(sys.argv) > 1:
 #     matricula = sys.argv[1]
@@ -52,17 +54,21 @@ logging.basicConfig(filename=ruta_personalizada[1:]+'.log', level=logging.DEBUG)
 datos_json = {}
 lock = threading.Lock()
 
-@app.route(ruta_personalizada, methods=['GET'])
+@app.route(ruta_personalizada+'/status', methods=['GET'])
 def obtener_json():
     with lock:
         return jsonify(datos_json)
+    
+@app.route(ruta_personalizada + '/info', methods=['GET'])
+def obtener_info():
+    fr_api = FlightRadar24API()
+    return jsonify(selected_flight.__dict__)
 
 def actualizar_datos_json():
     global datos_json
     fr_api = FlightRadar24API()
 
     while True:
-
         selected_flight_details = fr_api.get_flight_details(selected_flight)
         print(selected_flight_details.get("time")["real"]["arrival"],end="\t")
         print(selected_flight)
