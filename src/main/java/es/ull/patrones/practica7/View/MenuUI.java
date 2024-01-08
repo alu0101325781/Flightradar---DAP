@@ -18,7 +18,7 @@ public class MenuUI extends JFrame {
 
     public MenuUI() {
         // Configuración del JFrame
-        setTitle("Menú Principal");
+        setTitle("Controlador");
         setSize(400, 150);  // Tamaño ajustado
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -123,9 +123,7 @@ public class MenuUI extends JFrame {
                     public void actionPerformed(ActionEvent e) {
                         // Asignar el texto ingresado a la variable
                         nombreAerolineaIngresado = campoAerolinea.getText();
-
-                        // Realizar alguna acción según el nombre de la aerolínea ingresado
-                        System.out.println("Nombre de la Aerolínea ingresado: " + nombreAerolineaIngresado);
+                        new IInformacionAerolinea(nombreAerolineaIngresado);
                     }
                 });
 

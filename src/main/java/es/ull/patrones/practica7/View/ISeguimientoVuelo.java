@@ -58,8 +58,6 @@ public class ISeguimientoVuelo extends JFrame {
         // Hacer visible la ventana
         setVisible(true);
     }
-
-
 }
 
 
